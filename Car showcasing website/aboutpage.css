@@ -1,0 +1,117 @@
+@font-face
+{
+    font-family: carfont;
+    src: url('carfont.otf');
+    
+    font-weight: normal;
+
+}
+
+.container
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.image1
+{
+    height:auto;
+    width: 800px;
+    margin-left: 10px;
+}
+
+.about
+{
+    font-family: carfont;
+    margin: 25px;
+    text-align: left;
+    font-size:x-large;
+    
+}
+#story{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    text-align: left;
+    font-size: 19.56px;
+
+}
+
+.showcase
+{
+    margin: 20px;
+    font-family: carfont;
+    font-size: x-large;
+    text-align: right;
+    padding-top: 20px;
+}
+
+
+body
+{
+    margin: 0px;
+    background-color: hsl(0, 3%, 21%);
+    color: beige;
+}
+.container2
+{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    margin-right: 40px;
+    padding-top: 30px;
+    font-size: larger;
+
+}
+
+#story2
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    text-align: end;
+    font-size: 22px;
+}
+
+.image2
+{
+    height: auto;
+    width: 800px;
+}
+
+
+main
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav ul{
+    list-style: none;
+    
+    background-color: hsl(0, 0%, 1%);
+    padding: 15px;
+    margin: 0px;
+    overflow: hidden;
+    
+    
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    font-family: carfont;
+
+}
+
+.nav a:hover{
+    background-color: hsl(0, 23%, 43%);
+}
+
+.nav li
+{
+    float:inline-start
+}

@@ -1,0 +1,145 @@
+@font-face
+{
+    font-family: carfont;
+    src: url('carfont.otf');
+    
+    font-weight: normal;
+
+}
+
+.form-section :placeholder-shown{
+	background-color: hsl(0, 3%, 21%)
+}
+::placeholder{
+	color: white;
+}
+
+ body {
+            font-family: 'Arial', sans-serif;
+            margin: 0px;
+            padding: 0;
+			background-color: hsl(0, 3%, 21%);
+		
+        }
+
+		#contact{
+			font-family: carfont;
+			color: beige;
+		}
+		h1{
+			text-align: center;
+		}
+
+		
+		header {
+			background-color:#000;
+			color:#fff;
+			  border-bottom: 1px solid #ddd; /* add a border to the header */
+			}
+		
+		
+			.nav ul{
+				list-style: none;
+					
+				background-color: hsl(0, 0%, 1%);
+				padding: 15px;
+				margin: 0px;
+				overflow: hidden;
+				
+				
+			}
+			
+			.nav a{
+				color: white;
+				text-decoration: none;
+				padding: 25px;
+				display: block;
+				text-align: center;
+				font-family: carfont;
+			}
+			
+			.nav a:hover{
+				background-color: hsl(0, 23%, 43%);
+			}
+			
+			.nav li
+			{
+				float:inline-start
+			}
+		
+	main{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+        	.contact-us {
+           		background-color: #ffffff;
+            		padding: 40px;           
+            		width: 100%;
+            		display: flex;
+            		flex-direction: column;
+            		align-items: center;
+			padding-top: 80px; /* Add some padding to the top */
+        	}
+        	.contact-us h1 {
+            		font-size: 36px;
+            		font-weight: 300;
+            		text-align: center;
+            		margin-bottom: 20px;
+        	}
+        	.content {
+            		display: flex;
+            		justify-content: space-between;
+            		width: 100%;
+        	}
+        .form-section, .details-section {
+            width: 45%;
+        }
+        .form-section h2, .details-section h2 {
+            font-size: 18px;
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 20px;
+			color: white;
+        }
+        .form-section input, .form-section textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid white;
+            border-radius: 4px;
+        }
+        .details-section p {
+            margin: 0;
+            margin-bottom: 10px;
+            font-size: 14px;
+            line-height: 1.6;
+			color: white;
+        }
+        .details-section p strong {
+            display: block;
+            margin-top: 10px;
+			color: white;
+        }
+
+		.link8{
+			list-style-type: none;
+		}
+		.link8 a
+		{
+			color: rgb(252, 244, 244);
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		}
+		.link8 :hover
+		{
+			color: yellow;
+		}
+		
+		
+
+
+		
+  
+ 
+	
+
+    

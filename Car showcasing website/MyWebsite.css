@@ -1,0 +1,90 @@
+@font-face
+{
+    font-family: carfont;
+    src: url('carfont.otf');
+    
+    font-weight: normal;
+
+}
+
+
+.nav ul{
+    list-style: none;
+    
+    background-color: hsl(0, 0%, 1%);
+    padding: 15px;
+    margin: 0px;
+    overflow: hidden;
+    
+    
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    font-family: carfont;
+}
+
+.nav a:hover{
+    background-color: hsl(0, 23%, 43%);
+}
+
+.nav li
+{
+    float:inline-start
+}
+
+
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: hsl(0, 3%, 21%);
+    margin: 0px;
+}
+.car {
+    list-style-type: none;
+    padding: 0;
+}
+.image-with-border {
+    display: inline;
+    margin-right: 20px;
+}
+.image-with-border {
+    text-decoration: none;
+    color:white;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content div {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+h2 {
+    color: aliceblue;
+}
+h3, p {
+    color: aliceblue;
+}
+.car-image {
+    width: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+.car-image:hover {
+    align-items: center;
+    transform: scale(1.5);
+}
+
+
