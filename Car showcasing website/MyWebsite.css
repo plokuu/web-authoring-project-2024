@@ -42,9 +42,10 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+
 }
 body {
-    background-color: hsl(0, 3%, 21%);
+    background-color: rgb(44, 22, 30);
     margin: 0px;
 }
 .car {
