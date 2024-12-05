@@ -1,3 +1,5 @@
+
+
 @font-face
 {
     font-family: carfont;
@@ -8,6 +10,7 @@
 }
 
 
+
 body
 {
     margin: 0px;
@@ -16,7 +19,8 @@ body
     
 }
 
-.tier {
+.tier
+{
     text-align: right; 
     margin-bottom: 20px;
    
@@ -35,36 +39,54 @@ body
 {
     margin-right: 200px;
     justify-content: flex-start;
-    font-size: 30px;
+    font-size: 35px;
+    
+}
+
+@keyframes textAnimation
+{
+    0% { 
+        transform: translateX(100%) skewX(-30deg); 
+        opacity: 0; 
+     } 
+     
+     
+     100% { 
+        transform: translateX(0%) skewX(0deg); 
+        opacity: 1; 
+     } 
 }
 .content
 {
     font-size: larger;
-    
     text-align: left;
 }
-#gold{
+#gold
+{
     color: gold;
+    font-family: carfont;
 }
 
 
 .specialoffers
 {
-    
     font-size: xx-large;
     color: rgb(8, 8, 8);
     font-family: carfont;
     text-align: center;
-    background-color: rgb(150, 23, 65);
+    background-color: rgb(250, 244, 246);
     padding: 15px;
+    animation: textAnimation 1.5s ease;
 }
 
-.l{
-    background-color: aqua;
+.l
+{
+    background-color: gold;
     padding: 6px;
 }
 
-.offer1{
+.offer1
+{
     font-size: larger;
     text-align: center;
     padding: 50px;

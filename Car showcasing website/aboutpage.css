@@ -9,11 +9,12 @@
 
 .container
 {
-    
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
+
+
 
 .image1
 {
@@ -24,12 +25,14 @@
 
 .about
 {
+    animation: textAnimation 1.5s ease;
     font-family: carfont;
     margin: 25px;
     text-align: left;
     font-size:x-large;
     
 }
+
 #story{
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
