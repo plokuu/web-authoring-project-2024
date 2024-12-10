@@ -15,7 +15,7 @@
             font-family: 'Arial', sans-serif;
             margin: 0px;
             padding: 0;
-			
+			background-color: rgb(41, 39, 40);
 		
         }
 
@@ -60,7 +60,7 @@
 	main{
 		margin-left: 20px;
 		margin-right: 20px;
-		background-color: white
+		background-color: rgb(41, 39, 40);
 	}
         	.contact-us {
 
@@ -91,5 +91,19 @@
 				margin-bottom: 20px;
 				border: 1px solid #ccc;
 				border-radius: 4px;
+				background-color: rgb(41, 39, 40);
+				color: aliceblue;
 			}
-  
+			::placeholder{
+				color: white;
+			}
+
+			header
+			{
+				border-bottom: 1px solid #ddd;
+			}
+
+			#book
+			{
+				color: aliceblue;
+			}

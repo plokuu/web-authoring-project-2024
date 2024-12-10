@@ -14,11 +14,12 @@
 	color: white;
 }
 
+
  body {
             font-family: 'Arial', sans-serif;
             margin: 0px;
             padding: 0;
-			background-color: rgb(44, 22, 30);
+			background-color: rgb(41, 39, 40);
 		
         }
 
@@ -34,7 +35,7 @@
 		header {
 			background-color:#000;
 			color:#fff;
-			  border-bottom: 1px solid #ddd; /* add a border to the header */
+			  border-bottom: 1px solid #ddd;
 			}
 		
 		
@@ -64,7 +65,7 @@
 			
 			.nav li
 			{
-				float:inline-start
+				float:inline-start;
 			}
 		
 	main{
@@ -134,12 +135,3 @@
 			color: yellow;
 		}
 		
-		
-
-
-		
-  
- 
-	
-
-    
